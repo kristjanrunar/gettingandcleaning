@@ -25,7 +25,7 @@ colnames(subject) <- "subject_ID"
 
 y_withname <- merge(y,activity_labels)
 
-used_data <- X[,grep("mean|std", colnames(X))]
+used_data <- X[,grep("mean\\(|std", colnames(X))]
 used_data <- cbind(y_withname[2],used_data)
 used_data <- cbind(subject,used_data)
 

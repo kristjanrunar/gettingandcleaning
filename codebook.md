@@ -1,6 +1,6 @@
 #Code Book
 
-Subject_ID: Integer between 1 and 30. This is the id for the participant
+Subject_ID: Integer between 1 and 30. This is the id for the participant.
 
 Activity: This is the name of the activity
 
